@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class ayarlarVC: UIViewController {
+class AyarlarVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,8 @@ class ayarlarVC: UIViewController {
     }
     
     @IBAction func buttonCikis(_ sender: Any) {
+   
+    
         
         do {
             try Auth.auth().signOut()
@@ -29,5 +31,5 @@ class ayarlarVC: UIViewController {
         
     }
     
+ }
 
-}
